@@ -45,7 +45,7 @@
         "uaepass://presentment/?clientid=UAEPASSCLIENTID&accesstoken=ACCESSTOKEN&requestid=REQUESTID&successurl=<Success_Url>&failureurl=<Failure_Url>";*/
       let appLink = (isiOS) ? 
           "uaepassqa://?action=PRESENTMENT&clientid=digivault_stage&requestid=293" :
-          "uaepassqa://presentment/?clientid=digivault_stage&accesstoken=860ec0094762f119f57d055443e4f5d65fdbed2adabfff08a6d1dae0ade4a400&requestid=REQUESTID&successurl=<Success_Url>&failureurl=<Failure_Url>";
+          "uaepassqa://presentment/?clientid=digivault_stage&requestid=293";
       // for iOS we will get a popup error if this protocol is not supported, but it won't block javascript
       document.getElementById("loader").href = appLink;
       /* } */
